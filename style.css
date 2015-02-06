@@ -1,0 +1,95 @@
+html
+{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #0099FF;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #6666FF;
+}
+a:hover {
+	text-decoration: none;
+	color: #3586FF;
+}
+a:active {
+	text-decoration: none;
+	color: #6666FF;
+}
+
+#loginForm
+{
+	position: fixed;
+	right: 15%;
+	top: 15%;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+	width:20%;
+	background-color: #EEEEEE;
+}
+
+#title
+{
+	position: fixed;
+	left: 15%;
+	top: 5%;
+	width:20%;
+}
+
+#regForm
+{
+	position: fixed;
+	left: 15%;
+	top: 15%;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+	width:20%;
+	background-color: #EEEEEE;
+}
+
+#cenText
+{
+	position: fixed;
+	left: 40%;
+	top: 15%;
+    border-radius: 2px;
+    border: 1px solid #DDDDDD;
+	width:20%;
+	background-color: #EEEEEE;
+}
+
+#notif
+{
+	position: fixed;
+	left: 40%;
+	top: 5%;
+	width:20%;
+}
+
+input[type=text],
+input[type=password]
+{
+    border-radius: 2px;
+    background: white;
+	border: 1px solid #3079ed;
+    color: #555;
+    padding: 4px;
+    height: 32px;
+    width: 80%;
+}
+
+input[type=submit]
+{
+	border: 1px solid #3079ed;
+	color: #fff;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border-radius: 2px;
+	height: 32px;
+    width: 80%;
+}
